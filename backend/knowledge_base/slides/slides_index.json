@@ -1,0 +1,221 @@
+{
+  "course_title": "Deep Learning Fundamentals",
+  "total_slides": 12,
+  "slides": [
+    {
+      "id": 1,
+      "title": "Welcome to Deep Learning",
+      "image_path": "backend/knowledge_base/slides/slide_01.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_01.md",
+      "bullets": [
+        "What is Deep Learning?",
+        "Course Overview",
+        "Learning Objectives"
+      ],
+      "keywords": [
+        "introduction",
+        "neural networks",
+        "machine learning",
+        "AI"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Neural Networks Basics",
+      "image_path": "backend/knowledge_base/slides/slide_02.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_02.md",
+      "bullets": [
+        "Inspired by biological neurons",
+        "Perceptron: the simplest unit",
+        "Activation functions"
+      ],
+      "keywords": [
+        "neurons",
+        "perceptron",
+        "activation",
+        "sigmoid",
+        "ReLU"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Building Multi-Layer Networks",
+      "image_path": "backend/knowledge_base/slides/slide_03.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_03.md",
+      "bullets": [
+        "Input, Hidden, and Output layers",
+        "Forward propagation",
+        "Computing predictions"
+      ],
+      "keywords": [
+        "layers",
+        "forward propagation",
+        "hidden layers",
+        "architecture"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Loss Functions",
+      "image_path": "backend/knowledge_base/slides/slide_04.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_04.md",
+      "bullets": [
+        "Measuring prediction error",
+        "Mean Squared Error (MSE)",
+        "Cross-Entropy Loss"
+      ],
+      "keywords": [
+        "loss",
+        "error",
+        "MSE",
+        "cross-entropy",
+        "optimization"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Backpropagation",
+      "image_path": "backend/knowledge_base/slides/slide_05.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_05.md",
+      "bullets": [
+        "The chain rule in action",
+        "Computing gradients",
+        "Updating weights"
+      ],
+      "keywords": [
+        "backpropagation",
+        "gradients",
+        "chain rule",
+        "derivatives",
+        "training"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Gradient Descent",
+      "image_path": "backend/knowledge_base/slides/slide_06.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_06.md",
+      "bullets": [
+        "Optimization algorithm",
+        "Learning rate",
+        "Variants: SGD, Adam, RMSprop"
+      ],
+      "keywords": [
+        "gradient descent",
+        "optimization",
+        "learning rate",
+        "SGD",
+        "Adam"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Convolutional Neural Networks",
+      "image_path": "backend/knowledge_base/slides/slide_07.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_07.md",
+      "bullets": [
+        "Why CNNs for images?",
+        "Convolution operation",
+        "Pooling layers"
+      ],
+      "keywords": [
+        "CNN",
+        "convolution",
+        "pooling",
+        "image processing",
+        "filters"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Recurrent Neural Networks",
+      "image_path": "backend/knowledge_base/slides/slide_08.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_08.md",
+      "bullets": [
+        "Sequential data processing",
+        "Hidden state and memory",
+        "LSTM and GRU cells"
+      ],
+      "keywords": [
+        "RNN",
+        "LSTM",
+        "GRU",
+        "sequential",
+        "time series",
+        "memory"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Attention Mechanisms",
+      "image_path": "backend/knowledge_base/slides/slide_09.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_09.md",
+      "bullets": [
+        "Focusing on relevant information",
+        "Query, Key, Value",
+        "Self-attention"
+      ],
+      "keywords": [
+        "attention",
+        "self-attention",
+        "transformer",
+        "query",
+        "key",
+        "value"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Transformers",
+      "image_path": "backend/knowledge_base/slides/slide_10.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_10.md",
+      "bullets": [
+        "Architecture overview",
+        "Multi-head attention",
+        "Applications: NLP and beyond"
+      ],
+      "keywords": [
+        "transformer",
+        "multi-head attention",
+        "BERT",
+        "GPT",
+        "NLP"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Regularization Techniques",
+      "image_path": "backend/knowledge_base/slides/slide_11.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_11.md",
+      "bullets": [
+        "Preventing overfitting",
+        "Dropout",
+        "L1/L2 regularization"
+      ],
+      "keywords": [
+        "regularization",
+        "overfitting",
+        "dropout",
+        "L1",
+        "L2"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Best Practices & Next Steps",
+      "image_path": "backend/knowledge_base/slides/slide_12.png",
+      "speaker_notes_path": "backend/knowledge_base/slides/speaker_notes/slide_12.md",
+      "bullets": [
+        "Data preprocessing",
+        "Hyperparameter tuning",
+        "Continuous learning resources"
+      ],
+      "keywords": [
+        "best practices",
+        "preprocessing",
+        "hyperparameters",
+        "resources"
+      ]
+    }
+  ]
+}
